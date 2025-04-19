@@ -1,0 +1,42 @@
+{
+  "root": true,
+  "extends": [
+    "@nuxtjs/eslint-config-typescript",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "vue/multi-word-component-names": "off",
+    "vue/no-v-html": "off",
+    "vue/no-multiple-template-root": "off",
+    "vue/no-v-model-argument": "off",
+    "vue/require-default-prop": "off",
+    "vue/no-setup-props-destructure": "off",
+    "vue/no-mutating-props": "off",
+    "vue/no-reserved-component-names": "off",
+    "vue/component-name-in-template-casing": ["error", "PascalCase"],
+    "vue/component-definition-name-casing": ["error", "PascalCase"],
+    "vue/component-options-name-casing": ["error", "PascalCase"],
+    "vue/custom-event-name-casing": ["error", "camelCase"],
+    "vue/define-macros-order": ["error", {
+      "order": ["defineProps", "defineEmits"]
+    }],
+    "vue/html-comment-content-spacing": ["error", "always", {
+      "exceptions": []
+    }],
+    "vue/no-restricted-v-bind": ["error", "/^v-/"],
+    "vue/no-useless-v-bind": "error",
+    "vue/no-v-text-v-html-on-component": "error",
+    "vue/padding-line-between-blocks": ["error", "always"],
+    "vue/require-direct-export": "error",
+    "vue/v-on-event-hyphenation": ["error", "always", {
+      "autofix": true
+    }],
+    "vue/v-slot-style": ["error", {
+      "default": "v-slot",
+      "named": "longform"
+    }],
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
+    "no-debugger": "warn",
+    "prettier/prettier": ["error", {}, { "usePrettierrc": true }]
+  }
+} 

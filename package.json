@@ -1,0 +1,77 @@
+{
+  "name": "ninc-homepage",
+  "version": "1.0.3",
+  "type": "module",
+  "description": "一个基于Nuxt.js的个人主页，简约而不简单，颜值与性能并存！",
+  "keywords": [
+    "nuxt",
+    "vue",
+    "homepage",
+    "portfolio",
+    "modern",
+    "responsive"
+  ],
+  "author": {
+    "name": "zcxiao",
+    "email": "zh.chuxiao@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhChuXiao/ninc-homepage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhChuXiao/ninc-homepage/issues"
+  },
+  "homepage": "https://github.com/zhChuXiao/ninc-homepage#readme",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.10.1",
+    "@tailwindcss/vite": "^4.1.4",
+    "@vueuse/core": "^13.1.0",
+    "@vueuse/motion": "^3.0.3",
+    "@vueuse/nuxt": "^13.1.0",
+    "nuxt": "^3.16.2",
+    "pinia": "^3.0.1",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "sass": "^1.86.1",
+    "swiper": "^11.2.6",
+    "tailwindcss": "^4.1.4",
+    "typed.js": "^2.1.0",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/critters": "^0.8.0",
+    "@nuxtjs/eslint-config": "^12.1.0",
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "@prettier/plugin-pug": "^3.3.0",
+    "@tailwindcss/postcss": "^4.1.4",
+    "@types/node": "^20.11.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-prettier": "^5.2.6",
+    "fast-glob": "^3.3.3",
+    "prettier": "^3.5.3",
+    "pug": "^3.0.3",
+    "vite-plugin-svg-icons": "^2.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "packageManager": "pnpm@10.7.0",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

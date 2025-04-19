@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'iconfont'; /* Project id  */
+  src:
+    url('/fonts/iconfont.woff2?t=1744644113133') format('woff2'),
+    url('/fonts/iconfont.woff?t=1744644113133') format('woff'),
+    url('/fonts/iconfont.ttf?t=1744644113133') format('truetype');
+}
+
+.iconfont {
+  font-family: 'iconfont' !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-state:before {
+  content: '\e60e';
+}
+
+.icon-compass-full:before {
+  content: '\e974';
+}
+
+.icon-email:before {
+  content: '\e856';
+}
+
+.icon-yangguang:before {
+  content: '\e700';
+}
+
+.icon-github:before {
+  content: '\e603';
+}
+
+.icon-csdn1-copy:before {
+  content: '\e601';
+}
+
+.icon-yueliang:before {
+  content: '\e639';
+}
+
+.icon-blog:before {
+  content: '\e81a';
+}
+
+.icon-copyright:before {
+  content: '\e626';
+}
+
+.icon-clock-filling:before {
+  content: '\e689';
+}
+
+.icon-calendar-fill:before {
+  content: '\e839';
+}
+
+.icon-thumbtack:before {
+  content: '\e600';
+}
+.icon-apple-fill:before {
+  content: '\e881';
+}
+
+.icon-telegram-original:before {
+  content: '\e726';
+}
+
+.icon-app:before {
+  content: '\e6d7';
+}
+
+.icon-daima:before {
+  content: '\e631';
+}
